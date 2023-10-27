@@ -1,12 +1,51 @@
-header{background-color:black;}
-h1{color:#25a2c3;}
-h2{color:white;}
-main{background-image:url(images/banner.jpg);}
-section{background-color:#e22d0e;}
-button{background-color:#f04c2f;
+body{
+    margin: 0;}
+#header{
+    background-color:black;
+    line-height: 1.5;
+    text-align:center;
+    margin-bottom:30 px}
+h1{
+    color:#25a2c3;}
+h2{
+    color:white;}
+#main{
+    background-image:url(images/banner.jpg);
+    background-size:cover;
+    text-align: center;
+    width:100%;}
+#div{
+    width: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 5px solid black;
+    border-right: 5px solid black;}
+#section1{
+    text-align: center;}
+#section2{
+    text-align: center;
+    background-color: #e22d0e;}
+button{
+    background-color:#f04c2f;
     border-style:none;
     color:white; 
     border-radius:10px 10px 10px 10px;
     width: 100px;
-    height: 30px;}
-footer{background-color: #25a2c3;}    
+    height: 30px;
+    text-align: center;}
+.card{
+    text-align: center;
+    width: 70%;
+    margin: auto;}
+
+.container{border: #dee1e3 solid; 
+            margin-bottom: 30px;}
+
+#footer{
+    background-color: #25a2c3;}
+#address{
+    color: #c8e7f0; }
+a:link, a:visited {
+        text-decoration: underline;
+        color: #c8e7f0;}
+    

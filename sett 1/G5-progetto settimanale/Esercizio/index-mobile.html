@@ -2,60 +2,70 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <title>Corso Web Developer - Epicode school</title>
     <meta name="description" content="Da zero a Epicode con i corsi completi per diventare uno sviluppatore professionista in 3 mesi."/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="style-mobile.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-    <header>
-        <img src="images/logo.png" alt="Logo Epicode"/>
-    </header>
-    <main>
+    <div id="header">
+        <img src="images/logo.png" alt="Logo Epicode" width="100%" height="auto" loading="lazy"/>
+    <div id="main" >
         <h1>Corso Web Developer</h1>
         <p>Smetti di inseguire i titoli, inizia a lavorare. Mentre tutti vogliono arricchire il CV, tu pensa ad arricchire le tue competenze.</p>
         <button type="submit">Partiamo!</button> 
         </p>
-    </main>
-    <div>
+    </div>
+    </div>
+
+    <div id="section1"
      <h3>Tutti ti cercheranno</h3>
      <p>Sono 30.000 in Italia le posizioni di developer scoperte, scegli quella che ti stimola di più.</p>
      <h3>Lavora dove vuoi</h3>
      <p>Lavora da casa, in riva al mare o in montagna.</p>
-     <img src="images/notebook.jpg" alt="notebook"/>
+     <img src="images/notebook.jpg" alt="notebook" width="100%" height="auto" loading="lazy"/>
      <h3>Scegli il tuo ruolo</h3>
      <p>Potrai scegliere se essere Azienda, Freelance o Startup.</p>
      <h3>Lavoro in libertà</h3>
      <p>Non serve lavorare in ufficio per essere creatori di prodotti digitali.</p>
-    </div>
-    <section>
+    
+    <div id="section2">
     <h2>Epicode garantisce</h2>
     <blockquote><p>&quot;3 mesi intensivi di corso che cambieranno radicalmente la tua vita&quot;</p><br><cite>Mario Rossi<br>CEO, Epicode</cite></p></blockquote>
-    </section>
-    <aside>
-        <img src="images/foto1.jpg" alt="foto1"/>
+    </div>
+
+    <div class="card">
+        <div class="container">
+        <img src="images/foto1.jpg" alt="foto1" width="100%" height="auto" loading="lazy"/>
         <h3>Il tuo PC</h3>
         <p>Se vuoi diventare developer è l’unico strumento di cui hai bisogno.</p>
-        <img src="images/foto2.jpg" alt="foto2"/>
+        </div>
+        
+        <div class="container">
+        <img src="images/foto2.jpg" alt="foto2" width="100%" height="auto" loading="lazy"/>
         <h3>Impara ora</h3>
         <p>Impara da chi diventerai tra qualche anno, e diventa una rockstar come loro.
         </p>
-        <img src="images/foto3.jpg" alt="foto3"/>
+        </div>
+
+        <div class="container">
+        <img src="images/foto3.jpg" alt="foto3" width="100%" height="auto" loading="lazy"/>
         <h3>Lavora subito</h3>
         <p>Sappiamo cosa vogliono le aziende, perché lavoriamo con loro.</p>
-    </aside>
-    <footer>
+        </div>
+    </div>
+
+    <div id="footer">
         <h2>Contattaci</h2>
-        <div>
-        <address>
-            <a href="tel:+3911223456">(+39) 11223456</a><br>
+        <div id="address" style="color:#c8e7f0">
+            <a href="tel:+3911223456" title="Chiama">(+39) 11223456 </a><br>
             <a href="mailto:info@epicode.school"title="Contattami">info@epicode.school</a>
             <article>Via Appia 1 - 00100 Roma (RM).</article>
-        </address>
         </div>
         <hr>
-    <p>&copy;2021. Immagini di Pixabay.</p>
-    </footer>
+        <p style="color:#c8e7f0"> &copy;2021. Immagini di <a href="Pixabay." title="Vai su Pixabay">Pixabay.</a></p>
+    </div>
 </body>
 </html>
