@@ -1,0 +1,51 @@
+
+.header{
+    background-color: #222f3f;
+
+}
+
+/*Stile Nav-Bar*/
+.topnav {                           
+    background-color:#364759;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}    
+
+a {
+    text-decoration: none;
+    color:white;
+
+}
+
+.section1 , .section2 { 
+    text-align: center; 
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.section1 {
+    background-color: #f06811;
+    color:white
+}
+
+.section2 {
+    background-color: #306e63;
+    color:white
+}
+
+.cards {
+    float:right; 
+    margin-right:2em;
+}
+
+.footer  {
+    text-align: center;
+    background-color: #222f3f;
+}
+
+a, .section1, .section2, .section3, .section4, .section5   {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
