@@ -21,8 +21,6 @@ a {
 .section1 , .section2 { 
     text-align: center; 
     color: white;
-    padding-top: 1em;
-    padding-bottom: 1em;
 }
 
 .section1 {
@@ -31,8 +29,10 @@ a {
 }
 
 .section2 {
-    background-color: #306e63;
     color:white
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color:#2f6d5e;
 }
 
 .cards {
