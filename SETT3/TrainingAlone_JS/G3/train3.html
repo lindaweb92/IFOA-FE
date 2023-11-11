@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizi JS S3 G3</title>
+</head>
+<body>
+
+    <h1>DOM EVENTS, FORM, BOM</h1>
+
+    <p>Event onclick</p>
+    <button onclick = "alert('Hai cliccato il pulsante!')">Clicca qui! </button> 
+    <hr>
+
+    <p>Evento mouseOver/Out </p>
+    <h2 id="demo" onmouseover="mouseOver()" 
+    onmouseout="mouseOut()">Mouse over me</h2>
+    <hr>
+
+    <p>Evento onkeydown/up </p>
+    <input type="text" id="demo1" onkeydown="keydownFunction()" 
+    onkeyup="keyupFunction()">
+    <hr>
+
+    <p>Evento onchange</p>
+    <select id="mySelect" onchange="myFunction1()">
+        <option value="Audi">Audi</option>
+        <option value="BMW">BMW</option>
+        <option value="Mercedes">Mercedes</option>
+        <option value="Volvo">Volvo</option>
+    </select> 
+    <p id="demo2"></p>
+    <hr>
+
+    <p>Evento onsubmit</p>
+    <form action="/action_page.php" onsubmit="myFunction2()">
+        Enter name: <input type="text" name="fname">
+        <input type="submit" value="Submit">
+    </form>
+    <hr>
+
+    <p>Evento onload</p>
+    <img src="assets/img/cat1.jpg" 
+    onload="loadImage()" width="200" height="200">
+    <hr>
+
+    <p>Evento input</p>
+    <input type="text" id="input"> oninput: <span id="result"></span>
+    <hr>
+    
+    <p>Add Event Listener</p>
+    <button id="myBtn">Try it</button> <p id="demo3"></p>
+    <hr>
+    
+
+
+
+
+    
+    
+    
+
+    
+
+
+    
+    <script src="assets/JS/train3.js"> </script>  
+</body>
+</html>
