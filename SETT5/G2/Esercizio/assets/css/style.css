@@ -386,3 +386,33 @@ footer a {
     display: none;
   }
 }
+
+/*--------- CSS POSITIONING-----------*/
+@media screen and (min-width: 500px) {
+  h1 {
+    position: absolute;
+    display: inline-block;
+  }
+  span {
+      position: relative;
+      display: inline-block;
+      top: 100%; /* Posiziona l'immagine sotto l'elemento genitore (<h1>) */
+      left: 0; /* Allinea l'immagine con il bordo sinistro dell'elemento genitore */
+      width: 100%; /* Assicura che l'immagine occupi l'intera larghezza del contenitore */
+      /* Aggiungi altre regole CSS per l'immagine se necessario */
+  }
+  .article {
+    position: relative;
+  }
+  .contenitore img {
+    margin-right: 10px;
+    float: left; 
+  }
+  .contenitore p {
+    margin: 0;
+  }
+ 
+}
+
+}
+
