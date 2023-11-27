@@ -1,0 +1,167 @@
+
+
+body {
+    margin: 0;
+    position: relative;
+
+  }
+
+/* HEADER */
+#header {
+  background-color: #ffc017;
+  padding: 30px;
+  width: 100%;
+  top: 50px;
+  z-index: 1000;
+  display: block;
+  align-items: center; 
+  border-bottom: 2px solid #000;
+
+} 
+ #logo {
+  float: right;
+  margin-left: 30px;
+ }
+
+/* NAVBAR */
+.navbar {
+  overflow: hidden;
+  display: flex;
+}
+
+#menu {
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: -70px;
+  padding: 80px;
+  margin-left: 700px;
+}
+
+.one   {
+  display: inline-block;
+  margin-right: 20px;
+}
+.two {
+  display: inline-block;
+  margin-right: 20px;
+}
+.three {
+  display: inline-block;
+  margin-right: 20px;
+}
+.four {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#btn {
+  float: inline-end;
+  border-radius: 30px;
+  background-color: black;
+  color: #FFFF;
+  padding: 10px;
+  border-color: none;
+  margin-left: 20px;
+  width: 120px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* MAIN */
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  border-bottom: 2px solid #000;
+  background-color: #ffc017;
+  padding-bottom: 80px;
+}
+
+/*  HERO SECTION */
+
+.hero-section {
+  float: left;
+  margin-left: 50px;
+
+}
+
+.h2 {
+  font-size: 106px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  line-height: 95px;
+}
+
+.h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight:bold;
+  font-weight: lighter;
+  line-height: 20px;
+}
+
+.btn1  {
+  float: left;
+  margin-right: 140px;
+  border-radius: 30px;
+  background-color: black;
+  color: #FFFF;
+  padding: 8px 20px;
+  border: none;
+  width: 200px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* TRENDING */
+
+.article {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.trend {
+  float: none;
+}
+
+
+.trend-title {
+  font-size: 16px;
+  font-weight: lighter;
+
+}
+.trend-svg {
+  float: left;
+  margin-right: 10px;
+  margin-top: -10px;
+}
+
+/* CONTAINER-CARD */
+.number {
+  font-size: 32px;
+  color: #F2F2F2;
+}
+.image-cooper {
+  border-radius: 20px;
+}
+.card1 {
+  display: flex;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
