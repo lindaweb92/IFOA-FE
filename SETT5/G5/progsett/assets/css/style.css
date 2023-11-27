@@ -10,7 +10,6 @@ body {
 #header {
   background-color: #ffc017;
   padding: 30px;
-  width: 100%;
   top: 50px;
   z-index: 1000;
   display: block;
@@ -121,6 +120,8 @@ main {
 
 .article {
   font-family: Arial, Helvetica, sans-serif;
+  margin-left: 60px;
+  margin-top: 40px;
 }
 
 .trend {
@@ -143,13 +144,28 @@ main {
 .number {
   font-size: 32px;
   color: #F2F2F2;
+  float: left;
+  margin-left: -40px;
 }
-.image-cooper {
+
+.card-article {
   border-radius: 20px;
+  width: 20px;
+  float: left;
 }
-.card1 {
+
+
+.row {
   display: flex;
-  
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  border: 1px;
+  box-sizing: border-box;
 }
 
 
