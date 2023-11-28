@@ -71,6 +71,7 @@ body {
 main {
   display: flex;
   flex-direction: column;
+  border-bottom: 2px solid #000;
 }
 
 .container {
