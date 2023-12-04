@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Netflix</title>
+    <script src="https://kit.fontawesome.com/06a651c8da.js"></script>
+</head>
+
+<body>
+   <!-- ------------- NAVBAR ----------------->
+    <div id="navbar">
+        <nav class="navbar navbar-expand-lg bg-black ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/netflix_logo.png" alt="netflix_logo" width="70" height="30">
+                </a>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">TV Shows</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Movies</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white">Recently Added</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">My List</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <form class="d-flex" role="search">
+                <img src="assets/img/search.svg" width="20">
+                <button class="bg-black text-white border-0 p-3">KIDS</button>
+                <img src="assets/img/bell.svg" width="20">
+
+    <!---------------- MENU PROFILO UTENTE ---------------->
+                <div class="container mt-2">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="dropdown">
+                          <a class="btn btn-secondary dropdown-toggle bg-black border-0" href="#" role="button" id="userMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="assets/img/avatar.png" alt="User Image"  width="30" height="30">
+                          </a>
+                
+                          <div class="dropdown-menu bg-black" aria-labelledby="userMenu">
+                            <a class="dropdown-item text-white" href="#">Profilo</a>
+                            <a class="dropdown-item text-white" href="#">Impostazioni</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-white" href="#">Esci</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </form>
+            
+           
+        </nav>   
+    </div>
+    
+        
+<!------------ TV-SHOWS--------------- -->
+    <div id="tv-show">
+        <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container-fluid">
+          <h1 class="navbar-brand text-white p-2 fs-2" href="#">Tv Shows</h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white border" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Genres
+                </a>
+                <ul class="dropdown-menu bg-dark">
+                  <li><a class="dropdown-item text-white" href="#">Azione/Avventura</a></li>
+                  <li><a class="dropdown-item text-white" href="#">Commedie Italiane</a></li>
+                  <li><a class="dropdown-item text-white" href="#">Drammatici/Storici</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <a class="btn btn-secondary p-1 rounded-0 border-0 d-flex" href="#" role="button">
+            <img src="assets/img/square.png" alt="User Image"  width="30" height="30">
+        </a>    
+        <a class="btn btn-secondary p-1 rounded-0 border-0 d-flex" href="#" role="button">
+            <img src="assets/img/square-menu.png"  alt="User Image"  width="30" height="30">
+        </a>
+        
+
+        </nav>
+    </div>
+    
+
+
+<!--  --------------------CATEGORIES------------------- -->
+<main class="bg-black text-white">
+
+    <div id="categories">
+            <h5 class="p-4">Trending New</h5>
+            <div class="container mt-5 ">
+                <div class="d-flex">
+                    <div class="card border-dark rounded-0">
+                        <img src="assets/img/media/media0.webp" class="card-img-top" alt="Image 1">
+                    </div>
+                    <div class="card border-dark rounded-0">
+                        <img src="assets/img/media/media1.jpg" class="card-img-top" alt="Image 1">
+                    </div>
+                    <div class="card border-dark rounded-0">
+                        <img src="assets/img/media/media2.webp" class="card-img-top" alt="Image 1">
+                    </div>
+                    <div class="card border-dark rounded-0">
+                        <img src="assets/img/media/media3.webp" class="card-img-top" alt="Image 1">
+                    </div>
+                    <div class="card border-dark rounded-0">
+                        <img src="assets/img/media/media4.jpg" class="card-img-top" alt="Image 1">
+                    </div>
+                    <div class="card border-dark rounded-0">
+                        <img src="assets/img/media/media5.webp" class="card-img-top" alt="Image 1">
+                    </div>
+                </div>
+            </div>
+
+            <h5 class="p-4">Watch It Again</h5>
+            <div class="container mt-5">
+                <div class="d-flex">
+                    <div class="card border-dark rounded-0">
+                        <img src="assets/img/media/media6.jpg" class="card-img-top" alt="Image 1">
+                    </div>
+                    <div class="card border-dark rounded-0">
+                        <img src="assets/img/media/media7.webp" class="card-img-top" alt="Image 1">
+                    </div>
+                    <div class="card border-dark rounded-0">
+                        <img src="assets/img/media/media8.webp" class="card-img-top" alt="Image 1">
+                    </div>
+                    <div class="card border-dark rounded-0">
+                        <img src="assets/img/media/media9.jpg" class="card-img-top" alt="Image 1">
+                    </div>
+                    <div class="card border-dark rounded-0">
+                        <img src="assets/img/media/media10.jpg" class="card-img-top" alt="Image 1">
+                    </div>
+                    <div class="card border-dark rounded-0">
+                        <img src="assets/img/media/media11.jpg" class="card-img-top" alt="Image 1">
+                    </div>
+                </div>
+            </div>
+
+            <h5 class="p-4">New Releases</h5>
+            <div class="container mt-5">
+                <div class="d-flex">
+                    <div class="card border-dark rounded-0">
+                        <img src="assets/img/media/media12.jpg" class="card-img-top" alt="Image 1">
+                    </div>
+                    <div class="card border-dark rounded-0">
+                        <img src="assets/img/media/media13.jpg" class="card-img-top" alt="Image 1">
+                    </div>
+                    <div class="card border-dark rounded-0">
+                        <img src="assets/img/media/media14.webp" class="card-img-top" alt="Image 1">
+                    </div>
+                    <div class="card border-dark rounded-0">
+                        <img src="assets/img/media/media15.jpg" class="card-img-top" alt="Image 1">
+                    </div>
+                    <div class="card border-dark rounded-0">
+                        <img src="assets/img/media/media16.webp" class="card-img-top" alt="Image 1">
+                    </div>
+                    <div class="card border-dark rounded-0">
+                        <img src="assets/img/media/media17.jpg" class="card-img-top" alt="Image 1">
+                    </div>
+                </div>
+            </div>
+
+
+    </div>
+
+<!--  --------------------FOOTER-------------- -->
+        <div class="container text-center m-4 p-5">
+            <div class="row">
+                <div class="col">
+                </div>
+                <div class="col-6">
+                    <p>Audio and Subtitles</p>
+                    
+                </div>
+                <div class="col">
+                3 of 3
+                </div>
+            </div>
+        </div>
+    
+
+           <!--<p>Audio and Subtitles</p>
+                <p>Media Center</p>
+                <p>Privacy</p>
+                <p>Contact Us</p>
+                <p>Audio Description</p>
+                <p>Investor Description</p>
+                <p>Legal Notices</p>
+                <p>Help Center</p>
+                <p>Jobs</p>
+                <p>Cookies Preferences</p>
+                <p>Gift Cards</p>
+                <p>Terms of Use</p>
+                <p>Corporate Information</p> -->
+       
+</main>    
+
+    <script src="assets/js/script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
+</body>
+</html>
