@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import '../src/App.css';
 import MovieList from './components/MovieList';
 import Heading from './components/Heading';
 import Search from './components/Search';
@@ -9,12 +9,13 @@ import RemoveFav from './components/RemoveFav';
 
 
 const App = () => {
-	const [movies, setMovies] = useState([]);
+	const [movies, setMovies] = useState([
+  ]);
 	const [favourites, setFavourites] = useState([]);
 	const [searchValue, setSearchValue] = useState('');
 
 	const getMovieRequest = async (searchValue) => {
-		const url = `http://www.omdbapi.com/?s=${searchValue}&apikey=ff5db707`;
+		const url = `http://www.omdbapi.com/?apikey=adde96ac&s=harry%20potter`;
 
 		const response = await fetch(url);
 		const responseJson = await response.json();
@@ -60,24 +61,24 @@ const App = () => {
 	return (
 		<div className='container-fluid movie-app'>
 			<div className='row d-flex align-items-center mt-4 mb-4'>
-				<MovieListHeading heading='Movies' />
-				<SearchBox searchValue={searchValue} setSearchValue={setSearchValue} />
+				<Heading heading='Movies' />
+				<Search searchValue={searchValue} setSearchValue={setSearchValue} />
 			</div>
 			<div className='row'>
 				<MovieList
 					movies={movies}
 					handleFavouritesClick={addFavouriteMovie}
-					favouriteComponent={AddFavourites}
+					favouriteComponent={AddFav}
 				/>
 			</div>
 			<div className='row d-flex align-items-center mt-4 mb-4'>
-				<MovieListHeading heading='Favourites' />
+				<Heading heading='Favourites' />
 			</div>
 			<div className='row'>
 				<MovieList
 					movies={favourites}
 					handleFavouritesClick={removeFavouriteMovie}
-					favouriteComponent={RemoveFavourites}
+					favouriteComponent={RemoveFav}
 				/>
 			</div>
 		</div>
