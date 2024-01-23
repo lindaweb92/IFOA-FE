@@ -10,7 +10,6 @@
   }
   
   .row__posters::-webkit-scrollbar {
-    /* Doesn't displays scrollbar but it is still functional */
     display: none;
   }
   

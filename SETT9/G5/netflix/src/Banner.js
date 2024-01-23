@@ -27,7 +27,7 @@ function Banner() {
   }
 
   return (
-    // This banner will have a background image
+    // Questo banner avrà un'immagine di sfondo
     <header
       className="banner"
       style={{
@@ -40,16 +40,16 @@ function Banner() {
       }}
     >
       <div className="banner__contents">
-        {/* title or name or original_name whichever is available will be used*/}
+        {/* verrà utilizzato il titolo, il nome o il nome_originale, a seconda di quale sia disponibile*/}
         <h1 className="banner__title">
           {movie?.title || movie?.name || movie?.original_name}
         </h1>
-        {/* two buttons */}
+        {/* due bottoni */}
         <div className="banner__buttons">
           <button className="banner__button">Play</button>
           <button className="banner__button">My List</button>
         </div>
-        {/* description */}
+        {/* descrizione */}
         <h1 className="banner__description">
           {truncate(movie?.overview, 150)}
         </h1>
