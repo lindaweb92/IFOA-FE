@@ -61,12 +61,12 @@ class Weather extends React.Component {
   componentDidMount() {
     if (navigator.geolocation) {
       this.getPosition()
-        //If user allow location service then will fetch data & send it to get-weather function.
+        //Se l'utente consente il servizio di localizzazione, recupererà i dati e li invierà alla funzione meteo.
         .then((position) => {
           this.getWeather(position.coords.latitude, position.coords.longitude);
         })
         .catch((err) => {
-          //If user denied location service then standard location weather will le shown on basis of latitude & latitude.
+          //Se l'utente ha negato il servizio di localizzazione, il meteo della posizione standard verrà mostrato in base alla latitudine e alla latitudine.
           this.getWeather(28.67, 77.22);
           alert(
             "You have disabled location service. Allow 'This APP' to access your location. Your current location will be used for calculating Real time weather."
@@ -175,8 +175,7 @@ class Weather extends React.Component {
                 <p>
                   {this.state.temperatureC}°<span>C</span>
                 </p>
-                {/* <span className="slash">/</span>
-                {this.state.temperatureF} &deg;F */}
+                {}
               </div>
             </div>
           </div>
